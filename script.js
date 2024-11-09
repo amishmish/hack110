@@ -167,4 +167,6 @@ function Start() {
 
     question= makeQuestion("How appealing does AAAD101: Introduction to Africa sound to you?")
     element.replaceChild(question, remove)
+
+    
 }
