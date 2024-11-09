@@ -24,10 +24,15 @@ h1 {
 body {
   background-color: #7BAFD4;
   background-image: url("unc_basketball.png");
-  background-size: 8vw 8vh; 
-  background-repeat: space;
+  background-size: 20vw 20vh; 
+  background-repeat: repeat;
+  animation: mymove 200s infinite;
   
 }
+@keyframes mymove {
+  15% {background-position:center;}
+}
+
 
 p {
   text-align: center;
