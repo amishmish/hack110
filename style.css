@@ -3,7 +3,24 @@
     src: url(bubbleCute.ttf);
   }
 
+  @font-face {
+    font-family: bodyFont;
+    src: url(BubbleCandyDemoRegular.ttf);
+  }
+
   h1 {
-    color: blue;
+    color: #13294B;
     font-family: headFont;
+    text-align: center;
+    font-size: 60px;
+}
+
+body {
+  background-color: #7BAFD4;
+}
+
+p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px
 }
