@@ -163,7 +163,8 @@ function MakeAnswers(){
 function Start() {
     majors = makeMajorList()
     element = document.getElementById("bigBox")
+    remove = document.getElementById("delete")
 
     question= makeQuestion("How appealing does AAAD101: Introduction to Africa sound to you?")
-    element.appendChild(question)  
+    element.replaceChild(question, remove)
 }
