@@ -157,10 +157,11 @@ function MakeAnswers(){
 
 function Start() {
     majors = makeMajorList()
-
-    question = makeQuestion("hey there rodeo fans")
-
     element = document.getElementById("bigBox")
+
+    question= makeQuestion("How appealing does AAAD101: Introduction to Africa sound to you?")
     element.appendChild(question)
+
+    
     
 }
