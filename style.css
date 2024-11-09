@@ -1,3 +1,9 @@
-h1 {
-    color: #000055;
+@font-face {
+    font-family: headFont;
+    src: url(bubbleCute.ttf);
+  }
+
+  h1 {
+    color: blue;
+    font-family: headFont;
 }
