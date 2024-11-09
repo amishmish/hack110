@@ -3,12 +3,19 @@
     src: url(bubbleCute.ttf);
   }
 
-  @font-face {
-    font-family: bodyFont;
-    src: url(BubbleCandyDemoRegular.ttf);
+
+@font-face {
+    font-family: bodyReg;
+    src: url(Bobbleboddy.ttf)
   }
 
-  h1 {
+@font-face {
+    font-family: bodyLight;
+    src: url(Bobbleboddy_light.ttf)
+  }
+
+
+h1 {
     color: #13294B;
     font-family: headFont;
     text-align: center;
@@ -21,6 +28,22 @@ body {
 
 p {
   text-align: center;
+  color: #151515;
+  font-size: 20px;
+  font-family: bodyLight;
+}
+
+.bigBox{
+  margin: 100px;
   color: #ffffff;
-  font-size: 20px
+  text-align: center;
+  border: solid;
+  border-width: 5px;
+  border-color:#4F758B;
+  border-radius: 100px;
+  background-color: #F8F8F8;
+  padding: 40px 30px 20px 30px;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
 }
