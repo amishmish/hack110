@@ -90,6 +90,11 @@ function makeQuestion(string){
     const answers = MakeAnswers()
     question.appendChild(answers)
 
+    const button = document.createElement("button");
+    const node2 = document.createTextNode("Submit");
+    button.appendChild(node2);
+    question.append(button);
+
     return question
 }
 
@@ -157,10 +162,8 @@ function MakeAnswers(){
 
 function Start() {
     majors = makeMajorList()
-
-    question = makeQuestion("hey there rodeo fans")
-
     element = document.getElementById("bigBox")
-    element.appendChild(question)
-    
+
+    question= makeQuestion("How appealing does AAAD101: Introduction to Africa sound to you?")
+    element.appendChild(question)  
 }
