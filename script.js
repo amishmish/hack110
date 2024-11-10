@@ -358,7 +358,7 @@ function Start() {
     var question = document.createElement("div");
     question.setAttribute("class", "question")
     var statement = document.createElement("h2")
-    var node = document.createTextNode("How appealing does ANTH148: Human Origins seem to you?");
+    var node = document.createTextNode("How appealing does ANTH149: Human Origins seem to you?");
     statement.appendChild(node);
     question.appendChild(statement)
 
@@ -428,7 +428,7 @@ function Start() {
     const archequestion = document.createElement("div");
     question.setAttribute("class", "question")
     const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does ANTH220: Principles of Archaeology seem to you?");
+    const node = document.createTextNode("How appealing does ANTH149: Great Discoveries in Archaeology seem to you?");
     statement.appendChild(node);
     question.appendChild(statement)
 
@@ -708,7 +708,7 @@ function Start() {
     const archequestion = document.createElement("div");
     question.setAttribute("class", "question")
     const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does BMME: Biomedical Mechanics seem to you?");
+    const node = document.createTextNode("How appealing does BMME201: Computer Methods in Biomedical Engineering seem to you?");
     statement.appendChild(node);
     question.appendChild(statement)
 
@@ -778,7 +778,7 @@ function Start() {
     const archequestion = document.createElement("div");
     question.setAttribute("class", "question")
     const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does BIOS500: Introduction to Biostatistics seem to you?");
+    const node = document.createTextNode("How appealing does MATH233: Calculus of Functions of One Variable I seem to you?");
     statement.appendChild(node);
     question.appendChild(statement)
 
@@ -988,7 +988,77 @@ function Start() {
     const archequestion = document.createElement("div");
     question.setAttribute("class", "question")
     const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does CLAR244: Greek Art and Archaeology seem to you?");
+    const node = document.createTextNode("How appealing does CLAR241: Art and Archaeology of the Ancient Near East seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 14
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does COMM: Art and Archaeology of the Ancient Near East seem to you?");
     statement.appendChild(node);
     question.appendChild(statement)
 
