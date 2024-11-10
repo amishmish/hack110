@@ -1965,144 +1965,144 @@ function Start() {
     element.appendChild(question)
 
     //quesition 27
-    const archequestion = document.createElement("div");
-    question.setAttribute("class", "question")
-    const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does LTAM101: Introduction to Latin American Studies seem to you?");
-    statement.appendChild(node);
-    question.appendChild(statement)
+    const ltamquestion = document.createElement("div");
+    ltamquestion.setAttribute("class", "question")
+    const ltamstatement = document.createElement("h2")
+    const ltamnode = document.createTextNode("How appealing does LTAM101: Introduction to Latin American Studies seem to you?");
+    ltamstatement.appendChild(ltamnode);
+    ltamquestion.appendChild(ltamstatement)
 
-    const form = document.createElement("form");
-    form.setAttribute("id", "form")
+    const ltamform = document.createElement("form");
+    ltamform.setAttribute("id", "form")
 
-    const answer1 = document.createElement("input");
-    answer1.setAttribute("type", "radio");
-    answer1.setAttribute("id", "first");
-    answer1.setAttribute("name", "group");
-    const label1 = document.createElement("label");
-    label1.setAttribute("for", "'first");
-    const node1 = document.createTextNode("1");
-    label1.appendChild(node1);
-    form.appendChild(answer1);
-    form.appendChild(label1);
+    const ltamanswer1 = document.createElement("input");
+    ltamanswer1.setAttribute("type", "radio");
+    ltamanswer1.setAttribute("id", "first");
+    ltamanswer1.setAttribute("name", "group");
+    const ltamlabel1 = document.createElement("label");
+    ltamlabel1.setAttribute("for", "'first");
+    const ltamnode1 = document.createTextNode("1");
+    ltamlabel1.appendChild(ltamnode1);
+    ltamform.appendChild(ltamanswer1);
+    ltamform.appendChild(ltamlabel1);
 
-    const answer2 = document.createElement("input");
-    answer2.setAttribute("type", "radio");
-    answer2.setAttribute("id", "second");
-    answer2.setAttribute("name", "group");
-    const label2 = document.createElement("label");
-    label2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
-    label2.appendChild(node2);
-    form.appendChild(answer2);
-    form.appendChild(label2);
+    const ltamanswer2 = document.createElement("input");
+    ltamanswer2.setAttribute("type", "radio");
+    ltamanswer2.setAttribute("id", "second");
+    ltamanswer2.setAttribute("name", "group");
+    const ltamlabel2 = document.createElement("label");
+    ltamlabel2.setAttribute("for", "'second");
+    const ltamnode2 = document.createTextNode("2");
+    ltamlabel2.appendChild(ltamnode2);
+    ltamform.appendChild(ltamanswer2);
+    ltamform.appendChild(ltamlabel2);
 
-    const answer3 = document.createElement("input");
-    answer3.setAttribute("type", "radio");
-    answer3.setAttribute("id", "third");
-    answer3.setAttribute("name", "group");
-    const label3 = document.createElement("label");
-    label3.setAttribute("for", "'third");
-    const node3 = document.createTextNode("3");
-    label3.appendChild(node3);
-    form.appendChild(answer3);
-    form.appendChild(label3);
+    const ltamanswer3 = document.createElement("input");
+    ltamanswer3.setAttribute("type", "radio");
+    ltamanswer3.setAttribute("id", "third");
+    ltamanswer3.setAttribute("name", "group");
+    const ltamlabel3 = document.createElement("label");
+    ltamlabel3.setAttribute("for", "'third");
+    const ltamnode3 = document.createTextNode("3");
+    ltamlabel3.appendChild(ltamnode3);
+    ltamform.appendChild(ltamanswer3);
+    ltamform.appendChild(ltamlabel3);
 
-    const answer4 = document.createElement("input");
-    answer4.setAttribute("type", "radio");
-    answer4.setAttribute("id", "fourth");
-    answer4.setAttribute("name", "group");
-    const label4 = document.createElement("label");
-    label4.setAttribute("for", "'fourth");
-    const node4 = document.createTextNode("4");
-    label4.appendChild(node4);
-    form.appendChild(answer4);
-    form.appendChild(label4);
+    const ltamanswer4 = document.createElement("input");
+    ltamanswer4.setAttribute("type", "radio");
+    ltamanswer4.setAttribute("id", "fourth");
+    ltamanswer4.setAttribute("name", "group");
+    const ltamlabel4 = document.createElement("label");
+    ltamlabel4.setAttribute("for", "'fourth");
+    const ltamnode4 = document.createTextNode("4");
+    ltamlabel4.appendChild(ltamnode4);
+    ltamform.appendChild(ltamanswer4);
+    ltamform.appendChild(ltamlabel4);
 
-    const answer5 = document.createElement("input");
-    answer5.setAttribute("type", "radio");
-    answer5.setAttribute("id", "fifth");
-    answer5.setAttribute("name", "group");
-    const label5 = document.createElement("label");
-    label5.setAttribute("for", "'fifth");
-    const node5 = document.createTextNode("5");
-    label5.appendChild(node5);
-    form.appendChild(answer5);
-    form.appendChild(label5);
+    const ltamanswer5 = document.createElement("input");
+    ltamanswer5.setAttribute("type", "radio");
+    ltamanswer5.setAttribute("id", "fifth");
+    ltamanswer5.setAttribute("name", "group");
+    const ltamlabel5 = document.createElement("label");
+    ltamlabel5.setAttribute("for", "'fifth");
+    const ltamnode5 = document.createTextNode("5");
+    ltamlabel5.appendChild(ltamnode5);
+    ltamform.appendChild(ltamanswer5);
+    ltamform.appendChild(ltamlabel5);
 
-    question.append(form)
+    ltamquestion.append(ltamform)
     
-    element.appendChild(question)
+    element.appendChild(ltamquestion)
 
     //quesition 28
-    const archequestion = document.createElement("div");
-    question.setAttribute("class", "question")
-    const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does LING101: Introduction to Language seem to you?");
-    statement.appendChild(node);
-    question.appendChild(statement)
+    const lingquestion = document.createElement("div");
+    lingquestion.setAttribute("class", "question")
+    const lingstatement = document.createElement("h2")
+    const lingnode = document.createTextNode("How appealing does LING101: Introduction to Language seem to you?");
+    lingstatement.appendChild(lingnode);
+    lingquestion.appendChild(lingstatement)
 
-    const form = document.createElement("form");
-    form.setAttribute("id", "form")
+    const lingform = document.createElement("form");
+    lingform.setAttribute("id", "form")
 
-    const answer1 = document.createElement("input");
-    answer1.setAttribute("type", "radio");
-    answer1.setAttribute("id", "first");
-    answer1.setAttribute("name", "group");
-    const label1 = document.createElement("label");
-    label1.setAttribute("for", "'first");
-    const node1 = document.createTextNode("1");
-    label1.appendChild(node1);
-    form.appendChild(answer1);
-    form.appendChild(label1);
+    const linganswer1 = document.createElement("input");
+    linganswer1.setAttribute("type", "radio");
+    linganswer1.setAttribute("id", "first");
+    linganswer1.setAttribute("name", "group");
+    const linglabel1 = document.createElement("label");
+    linglabel1.setAttribute("for", "'first");
+    const lingnode1 = document.createTextNode("1");
+    linglabel1.appendChild(lingnode1);
+    lingform.appendChild(linganswer1);
+    lingform.appendChild(linglabel1);
 
-    const answer2 = document.createElement("input");
-    answer2.setAttribute("type", "radio");
-    answer2.setAttribute("id", "second");
-    answer2.setAttribute("name", "group");
-    const label2 = document.createElement("label");
-    label2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
-    label2.appendChild(node2);
-    form.appendChild(answer2);
-    form.appendChild(label2);
+    const linganswer2 = document.createElement("input");
+    linganswer2.setAttribute("type", "radio");
+    linganswer2.setAttribute("id", "second");
+    linganswer2.setAttribute("name", "group");
+    const linglabel2 = document.createElement("label");
+    linglabel2.setAttribute("for", "'second");
+    const lingnode2 = document.createTextNode("2");
+    linglabel2.appendChild(lingnode2);
+    lingform.appendChild(linganswer2);
+    lingform.appendChild(linglabel2);
 
-    const answer3 = document.createElement("input");
-    answer3.setAttribute("type", "radio");
-    answer3.setAttribute("id", "third");
-    answer3.setAttribute("name", "group");
-    const label3 = document.createElement("label");
-    label3.setAttribute("for", "'third");
-    const node3 = document.createTextNode("3");
-    label3.appendChild(node3);
-    form.appendChild(answer3);
-    form.appendChild(label3);
+    const linganswer3 = document.createElement("input");
+    linganswer3.setAttribute("type", "radio");
+    linganswer3.setAttribute("id", "third");
+    linganswer3.setAttribute("name", "group");
+    const linglabel3 = document.createElement("label");
+    linglabel3.setAttribute("for", "'third");
+    const lingnode3 = document.createTextNode("3");
+    linglabel3.appendChild(lingnode3);
+    lingform.appendChild(linganswer3);
+    lingform.appendChild(linglabel3);
 
-    const answer4 = document.createElement("input");
-    answer4.setAttribute("type", "radio");
-    answer4.setAttribute("id", "fourth");
-    answer4.setAttribute("name", "group");
-    const label4 = document.createElement("label");
-    label4.setAttribute("for", "'fourth");
-    const node4 = document.createTextNode("4");
-    label4.appendChild(node4);
-    form.appendChild(answer4);
-    form.appendChild(label4);
+    const linganswer4 = document.createElement("input");
+    linganswer4.setAttribute("type", "radio");
+    linganswer4.setAttribute("id", "fourth");
+    linganswer4.setAttribute("name", "group");
+    const linglabel4 = document.createElement("label");
+    linglabel4.setAttribute("for", "'fourth");
+    const lingnode4 = document.createTextNode("4");
+    linglabel4.appendChild(lingnode4);
+    lingform.appendChild(linganswer4);
+    lingform.appendChild(linglabel4);
 
-    const answer5 = document.createElement("input");
-    answer5.setAttribute("type", "radio");
-    answer5.setAttribute("id", "fifth");
-    answer5.setAttribute("name", "group");
-    const label5 = document.createElement("label");
-    label5.setAttribute("for", "'fifth");
-    const node5 = document.createTextNode("5");
-    label5.appendChild(node5);
-    form.appendChild(answer5);
-    form.appendChild(label5);
+    const linganswer5 = document.createElement("input");
+    linganswer5.setAttribute("type", "radio");
+    linganswer5.setAttribute("id", "fifth");
+    linganswer5.setAttribute("name", "group");
+    const linglabel5 = document.createElement("label");
+    linglabel5.setAttribute("for", "'fifth");
+    const lingnode5 = document.createTextNode("5");
+    linglabel5.appendChild(lingnode5);
+    lingform.appendChild(linganswer5);
+    lingform.appendChild(linglabel5);
 
-    question.append(form)
+    lingquestion.append(lingform)
     
-    element.appendChild(question)
+    element.appendChild(lingquestion)
 
     //quesition 29
     const sociquestion = document.createElement("div");
