@@ -985,74 +985,74 @@ function Start() {
     element.appendChild(CHEMquestion)
 
     //quesition 13
-    const archequestion = document.createElement("div");
-    question.setAttribute("class", "question")
-    const statement = document.createElement("h2")
-    const node = document.createTextNode("How appealing does CLAR241: Art and Archaeology of the Ancient Near East seem to you?");
-    statement.appendChild(node);
-    question.appendChild(statement)
+    const CLARquestion = document.createElement("div");
+    CLARquestion.setAttribute("class", "question")
+    const CLARstatement = document.createElement("h2")
+    const CLARnode = document.createTextNode("How appealing does CLAR241: Art and Archaeology of the Ancient Near East seem to you?");
+    CLARstatement.appendChild(node);
+    CLARquestion.appendChild(statement)
 
-    const form = document.createElement("form");
+    const CLARform = document.createElement("form");
     form.setAttribute("id", "form")
 
-    const answer1 = document.createElement("input");
-    answer1.setAttribute("type", "radio");
-    answer1.setAttribute("id", "first");
-    answer1.setAttribute("name", "group");
-    const label1 = document.createElement("label");
-    label1.setAttribute("for", "'first");
-    const node1 = document.createTextNode("1");
-    label1.appendChild(node1);
-    form.appendChild(answer1);
-    form.appendChild(label1);
+    const CLARanswer1 = document.createElement("input");
+    CLARanswer1.setAttribute("type", "radio");
+    CLARanswer1.setAttribute("id", "first");
+    CLARanswer1.setAttribute("name", "group");
+    const CLARlabel1 = document.createElement("label");
+    CLARlabel1.setAttribute("for", "'first");
+    const CLARnode1 = document.createTextNode("1");
+    label1.appendChild(CLARnode1);
+    CLARform.appendChild(CLARanswer1);
+    CLARform.appendChild(CLARlabel1);
 
-    const answer2 = document.createElement("input");
-    answer2.setAttribute("type", "radio");
-    answer2.setAttribute("id", "second");
-    answer2.setAttribute("name", "group");
-    const label2 = document.createElement("label");
-    label2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
-    label2.appendChild(node2);
-    form.appendChild(answer2);
-    form.appendChild(label2);
+    const CLARanswer2 = document.createElement("input");
+    CLARanswer2.setAttribute("type", "radio");
+    CLARanswer2.setAttribute("id", "second");
+    CLARanswer2.setAttribute("name", "group");
+    const CLARlabel2 = document.createElement("label");
+    CLARlabel2.setAttribute("for", "'second");
+    const CLARnode2 = document.createTextNode("2");
+    CLARlabel2.appendChild(CLARnode2);
+    CLARform.appendChild(CLARanswer2);
+    CLARform.appendChild(CLARlabel2);
 
-    const answer3 = document.createElement("input");
-    answer3.setAttribute("type", "radio");
-    answer3.setAttribute("id", "third");
-    answer3.setAttribute("name", "group");
-    const label3 = document.createElement("label");
-    label3.setAttribute("for", "'third");
-    const node3 = document.createTextNode("3");
-    label3.appendChild(node3);
-    form.appendChild(answer3);
-    form.appendChild(label3);
+    const CLARanswer3 = document.createElement("input");
+    CLARanswer3.setAttribute("type", "radio");
+    CLARanswer3.setAttribute("id", "third");
+    CLARanswer3.setAttribute("name", "group");
+    const CLARlabel3 = document.createElement("label");
+    CLARlabel3.setAttribute("for", "'third");
+    const CLARnode3 = document.createTextNode("3");
+    CLARlabel3.appendChild(CLARnode3);
+    CLARform.appendChild(CLARanswer3);
+    CLARform.appendChild(CLARlabel3);
 
-    const answer4 = document.createElement("input");
-    answer4.setAttribute("type", "radio");
-    answer4.setAttribute("id", "fourth");
-    answer4.setAttribute("name", "group");
-    const label4 = document.createElement("label");
-    label4.setAttribute("for", "'fourth");
-    const node4 = document.createTextNode("4");
-    label4.appendChild(node4);
-    form.appendChild(answer4);
-    form.appendChild(label4);
+    const CLARanswer4 = document.createElement("input");
+    CLARanswer4.setAttribute("type", "radio");
+    CLARanswer4.setAttribute("id", "fourth");
+    CLARanswer4.setAttribute("name", "group");
+    const CLARlabel4 = document.createElement("label");
+    CLARlabel4.setAttribute("for", "'fourth");
+    const CLARnode4 = document.createTextNode("4");
+    CLARlabel4.appendChild(CLARnode4);
+    CLARform.appendChild(CLARanswer4);
+    CLARform.appendChild(CLARlabel4);
 
-    const answer5 = document.createElement("input");
-    answer5.setAttribute("type", "radio");
-    answer5.setAttribute("id", "fifth");
-    answer5.setAttribute("name", "group");
-    const label5 = document.createElement("label");
-    label5.setAttribute("for", "'fifth");
-    const node5 = document.createTextNode("5");
-    label5.appendChild(node5);
-    form.appendChild(answer5);
-    form.appendChild(label5);
+    const CLARanswer5 = document.createElement("input");
+    CLARanswer5.setAttribute("type", "radio");
+    CLARanswer5.setAttribute("id", "fifth");
+    CLARanswer5.setAttribute("name", "group");
+    const CLARlabel5 = document.createElement("label");
+    CLARlabel5.setAttribute("for", "'fifth");
+    const CLARnode5 = document.createTextNode("5");
+    CLARlabel5.appendChild(CLARnode5);
+    CLARform.appendChild(CLARanswer5);
+    CLARform.appendChild(CLARlabel5);
 
-    question.append(form)
+    CLARquestion.append(CLARform)
     
-    element.appendChild(question)
+    element.appendChild(CLARquestion)
 
     //quesition 14
     const archequestion = document.createElement("div");
