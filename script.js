@@ -105,33 +105,33 @@ function Start() {
     AAADform.appendChild(AAADlabel2);
 
     const AAADanswer3 = document.createElement("input");
-    answer3.setAttribute("type", "radio");
-    answer3.setAttribute("id", "third");
-    answer3.setAttribute("name", "group");
-    const
+    AAADanswer3.setAttribute("type", "radio");
+    AAADanswer3.setAttribute("id", "third");
+    AAADanswer3.setAttribute("name", "group");
     
     
-    label3 = document.createElement("label");
-    label3.setAttribute("for", "'third");
-    const node3 = document.createTextNode("3");
-    label3.appendChild(node3);
-    form.appendChild(answer3);
-    form.appendChild(label3);
+    
+    AAADlabel3 = document.createElement("label");
+    AAADlabel3.setAttribute("for", "'third");
+    const AAADnode3 = document.createTextNode("3");
+    AAADlabel3.appendChild(AAADnode3);
+    AAADform.appendChild(AAADanswer3);
+    AAADform.appendChild(AAADlabel3);
 
-    var answer4 = document.createElement("input");
-    answer4.setAttribute("type", "radio");
-    answer4.setAttribute("id", "fourth");
-    answer4.setAttribute("name", "group");
-    var label4 = document.createElement("label");
-    label4.setAttribute("for", "'fourth");
-    var node4 = document.createTextNode("4");
-    label4.appendChild(node4);
-    form.appendChild(answer4);
-    form.appendChild(label4);
+    const AAADanswer4 = document.createElement("input");
+    AAADanswer4.setAttribute("type", "radio");
+    AAADanswer4.setAttribute("id", "fourth");
+    AAADanswer4.setAttribute("name", "group");
+    const AAADlabel4 = document.createElement("label");
+    AAADlabel4.setAttribute("for", "'fourth");
+    const AAADnode4 = document.createTextNode("4");
+    AAADlabel4.appendChild(AAADnode4);
+    AAADform.appendChild(AAADanswer4);
+    AAADform.appendChild(AAADlabel4);
 
-    var answer5 = document.createElement("input");
-    answer5.setAttribute("type", "radio");
-    answer5.setAttribute("id", "fifth");
+    const AAADanswer5 = document.createElement("input");
+    AAADanswer5.setAttribute("type", "radio");
+    AAADanswer5.setAttribute("id", "fifth");
     answer5.setAttribute("name", "group");
     var label5 = document.createElement("label");
     label5.setAttribute("for", "'fifth");
