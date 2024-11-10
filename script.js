@@ -80,7 +80,7 @@ function Start() {
     AAADquestion.appendChild(AAADstatement)
 
     const AAADform = document.createElement("form");
-    AADform.setAttribute("id", "form")
+    AAADform.setAttribute("id", "form")
 
     const AAADanswer1 = document.createElement("input");
     AAADanswer1.setAttribute("type", "radio");
@@ -132,7 +132,7 @@ function Start() {
     const AAADanswer5 = document.createElement("input");
     AAADanswer5.setAttribute("type", "radio");
     AAADanswer5.setAttribute("id", "fifth");
-    answer5.setAttribute("name", "group");
+    AAADanswer5.setAttribute("name", "group");
     const AAADlabel5 = document.createElement("label");
     AAADlabel5.setAttribute("for", "'fifth");
     const AAADnode5 = document.createTextNode("5");
@@ -177,13 +177,13 @@ function Start() {
     AMSTform.appendChild(AMSTanswer2);
     AMSTform.appendChild(AMSTlabel2);
 
-    AMST AMSTanswer3 = document.createElement("input");
+    AMSTanswer3 = document.createElement("input");
     AMSTanswer3.setAttribute("type", "radio");
     AMSTanswer3.setAttribute("id", "third");
     AMSTanswer3.setAttribute("name", "group");
     const AMSTlabel3 = document.createElement("label");
     AMSTlabel3.setAttribute("for", "'third");
-    ocnst AMSTnode3 = document.createTextNode("3");
+    const AMSTnode3 = document.createTextNode("3");
     AMSTlabel3.appendChild(AMSTnode3);
     AMSTform.appendChild(AMSTanswer3);
     AMSTform.appendChild(AMSTlabel3);
@@ -217,10 +217,10 @@ function Start() {
     //question 3
     const ANTHquestion = document.createElement("div");
     ANTHquestion.setAttribute("class", "question")
-    const ANTHstatement = document.createElement("h2")
+    const ANTH7statement = document.createElement("h2")
     const ANTHnode = document.createTextNode("How appealing does ANTH148: Human Origins seem to you?");
-    const ANTHstatement.appendChild(ANTHnode);
-    ANTHquestion.appendChild(ANTHstatement)
+    ANTH7statement.appendChild(ANTHnode);
+    ANTHquestion.appendChild(ANTH7statement)
 
     const ANTHform = document.createElement("form");
     ANTHform.setAttribute("id", "form")
@@ -242,7 +242,7 @@ function Start() {
     ANTHanswer2.setAttribute("name", "group");
     const ANTHlabel2 = document.createElement("label");
     ANTHlabel2.setAttribute("for", "'second");
-    cpnst ANTHnode2 = document.createTextNode("2");
+    const ANTHnode2 = document.createTextNode("2");
     ANTHlabel2.appendChild(ANTHnode2);
     ANTHform.appendChild(ANTHanswer2);
     ANTHform.appendChild(ANTHlabel2);
@@ -251,7 +251,7 @@ function Start() {
     ANTHanswer3.setAttribute("type", "radio");
     ANTHanswer3.setAttribute("id", "third");
     ANTHanswer3.setAttribute("name", "group");
-    ANTHvar label3 = document.createElement("label");
+    ANTHlabel3 = document.createElement("label");
     ANTHlabel3.setAttribute("for", "'third");
     const ANTHnode3 = document.createTextNode("3");
     ANTHlabel3.appendChild(ANTHnode3);
@@ -348,7 +348,7 @@ function Start() {
     const AAPLnode5 = document.createTextNode("5");
     AAPLlabel5.appendChild(AAPLnode5);
     AAPLform.appendChild(AAPLanswer5);
-    AAPLform.appendChild(label5);
+    AAPLform.appendChild(AAPLlabel5);
 
     AAPLquestion.append(AAPLform)
     
@@ -429,8 +429,8 @@ function Start() {
     ANTH3question.setAttribute("class", "question")
     const ANTH3statement = document.createElement("h2")
     const ANTH3node = document.createTextNode("How appealing does ANTH149: Great Discoveries in Archaeology seem to you?");
-    statement.appendChild(ANTH3node);
-    question.appendChild(sANTH3tatement)
+    ANTH3statement.appendChild(ANTH3node);
+    ANTH3question.appendChild(ANTH3statement)
 
     const ANTH3form = document.createElement("form");
     ANTH3form.setAttribute("id", "form")
@@ -474,7 +474,7 @@ function Start() {
     ANTH3answer4.setAttribute("name", "group");
     const ANTH3label4 = document.createElement("label");
     ANTH3label4.setAttribute("for", "'fourth");
-    const node4 = document.createTextNode("4");
+    const ANTH3node4 = document.createTextNode("4");
     ANTH3label4.appendChild(ANTH3node4);
     ANTH3form.appendChild(ANTH3answer4);
     ANTH3form.appendChild(ANTH3label4);
@@ -542,7 +542,7 @@ function Start() {
     ANTH4answer4.setAttribute("type", "radio");
     ANTH4answer4.setAttribute("id", "fourth");
     ANTH4answer4.setAttribute("name", "group");
-    const ANTH4label4 = ANTH4document.createElement("label");
+    const ANTH4label4 = document.createElement("label");
     ANTH4label4.setAttribute("for", "'fourth");
     const ANTH4node4 = document.createTextNode("4");
     ANTH4label4.appendChild(ANTH4node4);
@@ -565,12 +565,12 @@ function Start() {
     element.appendChild(ANTH4question)
     
     //question 7
-    const ANTH5archequestion = document.createElement("div");
+    const ANTH5question = document.createElement("div");
     ANTH4question.setAttribute("class", "question")
     const ANTH5statement = document.createElement("h2")
     const ANTH5node = document.createTextNode("How appealing does ASIA150: Asia: An Introduction");
-    ANTH5statement.appendChild(node);
-    ANTH5question.appendChild(statement)
+    ANTH5statement.appendChild(ANTH5node);
+    ANTH5question.appendChild(ANTH5statement)
 
     const ANTH5form = document.createElement("form");
     ANTH5form.setAttribute("id", "form")
@@ -613,9 +613,9 @@ function Start() {
     ANTH5answer4.setAttribute("id", "fourth");
     ANTH5answer4.setAttribute("name", "group");
     const ANTH5label4 = document.createElement("label");
-    label4.setAttribute("for", "'fourth");
+    ANTH5label4.setAttribute("for", "'fourth");
     const ANTH5node4 = document.createTextNode("4");
-    label4.appendChild(ANTH5node4);
+    ANTH5label4.appendChild(ANTH5node4);
     ANTH5form.appendChild(ANTH5answer4);
     ANTH5form.appendChild(ANTH5label4);
 
@@ -626,7 +626,7 @@ function Start() {
     const ANTH5label5 = document.createElement("label");
     ANTH5label5.setAttribute("for", "'fifth");
     const ANTH5node5 = document.createTextNode("5");
-    ANTH5label5.appendChild(node5);
+    ANTH5label5.appendChild(ANTH5node5);
     ANTH5form.appendChild(ANTH5answer5);
     ANTH5form.appendChild(ANTH5label5);
 
@@ -635,12 +635,12 @@ function Start() {
     element.appendChild(ANTH5question)
 
     //question 8
-    const BIOLarchequestion = document.createElement("div");
+    const BIOLquestion = document.createElement("div");
     BIOLquestion.setAttribute("class", "question")
     const BIOLstatement = document.createElement("h2")
     const BIOLnode = document.createTextNode("How appealing does BIOL101: Principles of Biology seem to you?");
-    BIOLstatement.appendChild(node);
-    BIOLquestion.appendChild(statement)
+    BIOLstatement.appendChild(BIOLnode);
+    BIOLquestion.appendChild(BIOLstatement)
 
     const BIOLform = document.createElement("form");
     BIOLform.setAttribute("id", "form")
@@ -705,7 +705,7 @@ function Start() {
     element.appendChild(BIOLquestion)
 
     //question 9
-    const BMMEequestion = document.createElement("div");
+    const BMMEquestion = document.createElement("div");
     BMMEquestion.setAttribute("class", "question")
     const BMMEstatement = document.createElement("h2")
     const BMMEnode = document.createTextNode("How appealing does BMME201: Computer Methods in Biomedical Engineering seem to you?");
@@ -775,7 +775,7 @@ function Start() {
     element.appendChild(BMMEquestion)
 
     //question 10
-    const MATHequestion = document.createElement("div");
+    const MATHquestion = document.createElement("div");
     MATHquestion.setAttribute("class", "question")
     const MATHstatement = document.createElement("h2")
     const MATHnode = document.createTextNode("How appealing does MATH231: Calculus of Functions of One Variable I seem to you?");
@@ -790,9 +790,9 @@ function Start() {
     MATHanswer1.setAttribute("id", "first");
     MATHanswer1.setAttribute("name", "group");
     const MATHlabel1 = document.createElement("label");
-    label1.setAttribute("for", "'first");
+    MATHlabel1.setAttribute("for", "'first");
     const MATHnode1 = document.createTextNode("1");
-    MATHlabel1.appendChild(node1);
+    MATHlabel1.appendChild(MATHnode1);
     MATHform.appendChild(MATHanswer1);
     MATHform.appendChild(MATHlabel1);
 
@@ -989,11 +989,11 @@ function Start() {
     CLARquestion.setAttribute("class", "question")
     const CLARstatement = document.createElement("h2")
     const CLARnode = document.createTextNode("How appealing does CLAR241: Art and Archaeology of the Ancient Near East seem to you?");
-    CLARstatement.appendChild(node);
-    CLARquestion.appendChild(statement)
+    CLARstatement.appendChild(CLARnode);
+    CLARquestion.appendChild(CLARstatement)
 
     const CLARform = document.createElement("form");
-    form.setAttribute("id", "form")
+    CLARform.setAttribute("id", "form")
 
     const CLARanswer1 = document.createElement("input");
     CLARanswer1.setAttribute("type", "radio");
@@ -1002,7 +1002,7 @@ function Start() {
     const CLARlabel1 = document.createElement("label");
     CLARlabel1.setAttribute("for", "'first");
     const CLARnode1 = document.createTextNode("1");
-    label1.appendChild(CLARnode1);
+    CLARlabel1.appendChild(CLARnode1);
     CLARform.appendChild(CLARanswer1);
     CLARform.appendChild(CLARlabel1);
 
@@ -1055,7 +1055,7 @@ function Start() {
     element.appendChild(CLARquestion)
 
     //quesition 14
-    var archequestion = document.createElement("div");
+    var question = document.createElement("div");
     question.setAttribute("class", "question")
     var statement = document.createElement("h2")
     var node = document.createTextNode("How appealing does COMM100: Communication and Social Process seem to you?");
@@ -1152,7 +1152,7 @@ function Start() {
     answer2.setAttribute("name", "group");
     label2 = document.createElement("label");
     label2.setAttribute("for", "'second");
-     node2 = document.createTextNode("2");
+    node2 = document.createTextNode("2");
     label2.appendChild(node2);
     form.appendChild(answer2);
     form.appendChild(label2);
@@ -1572,7 +1572,7 @@ function Start() {
     answer2.setAttribute("name", "group");
     label2 = document.createElement("label");
     label2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
+    node2 = document.createTextNode("2");
     label2.appendChild(node2);
     form.appendChild(answer2);
     form.appendChild(label2);
@@ -2252,7 +2252,7 @@ function Start() {
     muscstatement.appendChild(muscnode);
     muscquestion.appendChild(statement)
 
-    const form = document.createElement("form");
+    const muscform = document.createElement("form");
     muscform.setAttribute("id", "form")
 
     const muscanswer1 = document.createElement("input");
@@ -2611,7 +2611,7 @@ function Start() {
     plcyanswer1.setAttribute("name", "group");
     const plcylabel1 = document.createElement("label");
     plcylabel1.setAttribute("for", "'first");
-    const node1 = document.createTextNode("1");
+    const plcynode1 = document.createTextNode("1");
     plcylabel1.appendChild(plcynode1);
     plcyform.appendChild(plcyanswer1);
     plcyform.appendChild(plcylabel1);
@@ -2622,7 +2622,7 @@ function Start() {
     plcyanswer2.setAttribute("name", "group");
     const plcylabel2 = document.createElement("label");
     plcylabel2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
+    const plcynode2 = document.createTextNode("2");
     plcylabel2.appendChild(plcynode2);
     plcyform.appendChild(plcyanswer2);
     plcyform.appendChild(plcylabel2);
@@ -2692,7 +2692,7 @@ function Start() {
     relianswer2.setAttribute("name", "group");
     const relilabel2 = document.createElement("label");
     relilabel2.setAttribute("for", "'second");
-    const node2 = document.createTextNode("2");
+    const relinode2 = document.createTextNode("2");
     label2.appendChild(relinode2);
     reliform.appendChild(relianswer2);
     reliform.appendChild(relilabel2);
@@ -2821,7 +2821,7 @@ function Start() {
     storanswer1.setAttribute("name", "group");
     const storlabel1 = document.createElement("label");
     storlabel1.setAttribute("for", "'first");
-    const node1 = document.createTextNode("1");
+    const stornode1 = document.createTextNode("1");
     storlabel1.appendChild(stornode1);
     storform.appendChild(storanswer1);
     storform.appendChild(storlabel1);
@@ -2843,7 +2843,7 @@ function Start() {
     storanswer3.setAttribute("name", "group");
     const storlabel3 = document.createElement("label");
     storlabel3.setAttribute("for", "'third");
-    const node3 = document.createTextNode("3");
+    const stornode3 = document.createTextNode("3");
     storlabel3.appendChild(stornode3);
     storform.appendChild(storanswer3);
     storform.appendChild(storlabel3);
@@ -2943,4 +2943,10 @@ function Start() {
     wgstquestion.append(wgstform)
     
     element.appendChild(wgstquestion)
+
+    button = document.createElement("button")
+    text = document.createTextNode("Submit!")
+    button.appendChild(text)
+
+    element.appendChild(button)
 }
