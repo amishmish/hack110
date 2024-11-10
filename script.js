@@ -2243,4 +2243,704 @@ function Start() {
     question.append(form)
     
     element.appendChild(question)
+
+    //quesition 31
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does MUSC120: Foundations in Music seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 32
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does PSYC101: General Psychology seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 33
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does PWAD/POLI150: International Relations and Global Politics seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 34
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does PHIL101: Introduction to Philosophy seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 35
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does PHYS118: Introductry Calculus-based Mechanics and Relativity seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 36
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does PLCY101: Making Public Policy seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 37
+    const archequestion = document.createElement("div");
+    question.setAttribute("class", "question")
+    const statement = document.createElement("h2")
+    const node = document.createTextNode("How appealing does RELI101: Introduction to Religious Studies seem to you?");
+    statement.appendChild(node);
+    question.appendChild(statement)
+
+    const form = document.createElement("form");
+    form.setAttribute("id", "form")
+
+    const answer1 = document.createElement("input");
+    answer1.setAttribute("type", "radio");
+    answer1.setAttribute("id", "first");
+    answer1.setAttribute("name", "group");
+    const label1 = document.createElement("label");
+    label1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    label1.appendChild(node1);
+    form.appendChild(answer1);
+    form.appendChild(label1);
+
+    const answer2 = document.createElement("input");
+    answer2.setAttribute("type", "radio");
+    answer2.setAttribute("id", "second");
+    answer2.setAttribute("name", "group");
+    const label2 = document.createElement("label");
+    label2.setAttribute("for", "'second");
+    const node2 = document.createTextNode("2");
+    label2.appendChild(node2);
+    form.appendChild(answer2);
+    form.appendChild(label2);
+
+    const answer3 = document.createElement("input");
+    answer3.setAttribute("type", "radio");
+    answer3.setAttribute("id", "third");
+    answer3.setAttribute("name", "group");
+    const label3 = document.createElement("label");
+    label3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    label3.appendChild(node3);
+    form.appendChild(answer3);
+    form.appendChild(label3);
+
+    const answer4 = document.createElement("input");
+    answer4.setAttribute("type", "radio");
+    answer4.setAttribute("id", "fourth");
+    answer4.setAttribute("name", "group");
+    const label4 = document.createElement("label");
+    label4.setAttribute("for", "'fourth");
+    const node4 = document.createTextNode("4");
+    label4.appendChild(node4);
+    form.appendChild(answer4);
+    form.appendChild(label4);
+
+    const answer5 = document.createElement("input");
+    answer5.setAttribute("type", "radio");
+    answer5.setAttribute("id", "fifth");
+    answer5.setAttribute("name", "group");
+    const label5 = document.createElement("label");
+    label5.setAttribute("for", "'fifth");
+    const node5 = document.createTextNode("5");
+    label5.appendChild(node5);
+    form.appendChild(answer5);
+    form.appendChild(label5);
+
+    question.append(form)
+    
+    element.appendChild(question)
+
+    //quesition 38
+    const romaquestion = document.createElement("div");
+    romaquestion.setAttribute("class", "question")
+    const romastatement = document.createElement("h2")
+    const romanode = document.createTextNode("How appealing does taking a French, Spanish, or Italian course seem to you?");
+    romastatement.appendChild(romanode);
+    romaquestion.appendChild(romastatement)
+
+    const romaform = document.createElement("form");
+    romaform.setAttribute("id", "form")
+
+    const romaanswer1 = document.createElement("input");
+    romaanswer1.setAttribute("type", "radio");
+    romaanswer1.setAttribute("id", "first");
+    romaanswer1.setAttribute("name", "group");
+    const romalabel1 = document.createElement("label");
+    romalabel1.setAttribute("for", "'first");
+    const romanode1 = document.createTextNode("1");
+    romalabel1.appendChild(romanode1);
+    romaform.appendChild(romaanswer1);
+    romaform.appendChild(romalabel1);
+
+    const romaanswer2 = document.createElement("input");
+    romaanswer2.setAttribute("type", "radio");
+    romaanswer2.setAttribute("id", "second");
+    romaanswer2.setAttribute("name", "group");
+    const romalabel2 = document.createElement("label");
+    romalabel2.setAttribute("for", "'second");
+    const romanode2 = document.createTextNode("2");
+    romalabel2.appendChild(romanode2);
+    romaform.appendChild(romaanswer2);
+    romaform.appendChild(romalabel2);
+
+    const romaanswer3 = document.createElement("input");
+    romaanswer3.setAttribute("type", "radio");
+    romaanswer3.setAttribute("id", "third");
+    romaanswer3.setAttribute("name", "group");
+    const romalabel3 = document.createElement("label");
+    romalabel3.setAttribute("for", "'third");
+    const romanode3 = document.createTextNode("3");
+    romalabel3.appendChild(romanode3);
+    romaform.appendChild(romaanswer3);
+    romaform.appendChild(romalabel3);
+
+    const romaanswer4 = document.createElement("input");
+    romaanswer4.setAttribute("type", "radio");
+    romaanswer4.setAttribute("id", "fourth");
+    romaanswer4.setAttribute("name", "group");
+    const romalabel4 = document.createElement("label");
+    romalabel4.setAttribute("for", "'fourth");
+    const romanode4 = document.createTextNode("4");
+    romalabel4.appendChild(romanode4);
+    romaform.appendChild(romaanswer4);
+    romaform.appendChild(romalabel4);
+
+    const romaanswer5 = document.createElement("input");
+    romaanswer5.setAttribute("type", "radio");
+    romaanswer5.setAttribute("id", "fifth");
+    romaanswer5.setAttribute("name", "group");
+    const romalabel5 = document.createElement("label");
+    romalabel5.setAttribute("for", "'fifth");
+    const romanode5 = document.createTextNode("5");
+    romalabel5.appendChild(romanode5);
+    romaform.appendChild(romaanswer5);
+    romaform.appendChild(romalabel5);
+
+    romaquestion.append(romaform)
+    
+    element.appendChild(romaquestion)
+
+    //quesition 39
+    const storquestion = document.createElement("div");
+    storquestion.setAttribute("class", "question")
+    const storstatement = document.createElement("h2")
+    const stornode = document.createTextNode("How appealing does STOR120: Foundations of Statistics and Data Science seem to you?");
+    storstatement.appendChild(stornode);
+    storquestion.appendChild(storstatement)
+
+    const storform = document.createElement("form");
+    storform.setAttribute("id", "form")
+
+    const storanswer1 = document.createElement("input");
+    storanswer1.setAttribute("type", "radio");
+    storanswer1.setAttribute("id", "first");
+    storanswer1.setAttribute("name", "group");
+    const storlabel1 = document.createElement("label");
+    storlabel1.setAttribute("for", "'first");
+    const node1 = document.createTextNode("1");
+    storlabel1.appendChild(stornode1);
+    storform.appendChild(storanswer1);
+    storform.appendChild(storlabel1);
+
+    const storanswer2 = document.createElement("input");
+    storanswer2.setAttribute("type", "radio");
+    storanswer2.setAttribute("id", "second");
+    storanswer2.setAttribute("name", "group");
+    const storlabel2 = document.createElement("label");
+    storlabel2.setAttribute("for", "'second");
+    const stornode2 = document.createTextNode("2");
+    storlabel2.appendChild(stornode2);
+    storform.appendChild(storanswer2);
+    storform.appendChild(storlabel2);
+
+    const storanswer3 = document.createElement("input");
+    storanswer3.setAttribute("type", "radio");
+    storanswer3.setAttribute("id", "third");
+    storanswer3.setAttribute("name", "group");
+    const storlabel3 = document.createElement("label");
+    storlabel3.setAttribute("for", "'third");
+    const node3 = document.createTextNode("3");
+    storlabel3.appendChild(stornode3);
+    storform.appendChild(storanswer3);
+    storform.appendChild(storlabel3);
+
+    const storanswer4 = document.createElement("input");
+    storanswer4.setAttribute("type", "radio");
+    storanswer4.setAttribute("id", "fourth");
+    storanswer4.setAttribute("name", "group");
+    const storlabel4 = document.createElement("label");
+    storlabel4.setAttribute("for", "'fourth");
+    const stornode4 = document.createTextNode("4");
+    storlabel4.appendChild(stornode4);
+    storform.appendChild(storanswer4);
+    storform.appendChild(storlabel4);
+
+    const storanswer5 = document.createElement("input");
+    storanswer5.setAttribute("type", "radio");
+    storanswer5.setAttribute("id", "fifth");
+    storanswer5.setAttribute("name", "group");
+    const storlabel5 = document.createElement("label");
+    storlabel5.setAttribute("for", "'fifth");
+    const stornode5 = document.createTextNode("5");
+    storlabel5.appendChild(stornode5);
+    storform.appendChild(storanswer5);
+    storform.appendChild(storlabel5);
+
+    storquestion.append(storform)
+    
+    element.appendChild(storquestion)
+
+    //quesition 40
+    const wgstquestion = document.createElement("div");
+    wgstquestion.setAttribute("class", "question")
+    const wgststatement = document.createElement("h2")
+    const wgstnode = document.createTextNode("How appealing does WGST101: Introduction to Women's and Gender Studies seem to you?");
+    wgststatement.appendChild(wgstnode);
+    wgstquestion.appendChild(wgststatement)
+
+    const wgstform = document.createElement("form");
+    wgstform.setAttribute("id", "form")
+
+    const wgstanswer1 = document.createElement("input");
+    wgstanswer1.setAttribute("type", "radio");
+    wgstanswer1.setAttribute("id", "first");
+    wgstanswer1.setAttribute("name", "group");
+    const wgstlabel1 = document.createElement("label");
+    wgstlabel1.setAttribute("for", "'first");
+    const wgstnode1 = document.createTextNode("1");
+    wgstlabel1.appendChild(wgstnode1);
+    wgstform.appendChild(wgstanswer1);
+    wgstform.appendChild(wgstlabel1);
+
+    const wgstanswer2 = document.createElement("input");
+    wgstanswer2.setAttribute("type", "radio");
+    wgstanswer2.setAttribute("id", "second");
+    wgstanswer2.setAttribute("name", "group");
+    const wgstlabel2 = document.createElement("label");
+    wgstlabel2.setAttribute("for", "'second");
+    const wgstnode2 = document.createTextNode("2");
+    wgstlabel2.appendChild(wgstnode2);
+    wgstform.appendChild(wgstanswer2);
+    wgstform.appendChild(wgstlabel2);
+
+    const wgstanswer3 = document.createElement("input");
+    wgstanswer3.setAttribute("type", "radio");
+    wgstanswer3.setAttribute("id", "third");
+    wgstanswer3.setAttribute("name", "group");
+    const wgstlabel3 = document.createElement("label");
+    wgstlabel3.setAttribute("for", "'third");
+    const wgstnode3 = document.createTextNode("3");
+    wgstlabel3.appendChild(wgstnode3);
+    wgstform.appendChild(wgstanswer3);
+    wgstform.appendChild(wgstlabel3);
+
+    const wgstanswer4 = document.createElement("input");
+    wgstanswer4.setAttribute("type", "radio");
+    wgstanswer4.setAttribute("id", "fourth");
+    wgstanswer4.setAttribute("name", "group");
+    const wgstlabel4 = document.createElement("label");
+    wgstlabel4.setAttribute("for", "'fourth");
+    const wgstnode4 = document.createTextNode("4");
+    wgstlabel4.appendChild(wgstnode4);
+    wgstform.appendChild(wgstanswer4);
+    wgstform.appendChild(wgstlabel4);
+
+    const wgstanswer5 = document.createElement("input");
+    wgstanswer5.setAttribute("type", "radio");
+    wgstanswer5.setAttribute("id", "fifth");
+    wgstanswer5.setAttribute("name", "group");
+    const wgstlabel5 = document.createElement("label");
+    wgstlabel5.setAttribute("for", "'fifth");
+    const wgstnode5 = document.createTextNode("5");
+    wgstlabel5.appendChild(wgstnode5);
+    wgstform.appendChild(wgstanswer5);
+    wgstform.appendChild(wgstlabel5);
+
+    wgstquestion.append(wgstform)
+    
+    element.appendChild(wgstquestion)
 }
